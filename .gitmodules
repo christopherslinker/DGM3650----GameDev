@@ -1,0 +1,6 @@
+[submodule "DGM3650 -- GameDev/"]
+	path = DGM3650 -- GameDev/
+	url = https://github.com/christopherslinker/UnityTools
+[submodule "CoolestGame/Assets/Tools"]
+	path = CoolestGame/Assets/Tools
+	url = https://github.com/christopherslinker/UnityTools
