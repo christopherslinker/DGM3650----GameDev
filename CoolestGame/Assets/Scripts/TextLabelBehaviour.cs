@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class TextLabelBehaviour : MonoBehaviour
 {
     public Text label;
-    public FloatData dataObj;
+    public FloatData floatDataObj;
+
 
     private void Start()
     {
@@ -17,6 +18,6 @@ public class TextLabelBehaviour : MonoBehaviour
 
     public void UpdateLabel()
     {
-        label.text = dataObj.value.ToString();
+        label.text = floatDataObj.value.ToString();
     }
 }

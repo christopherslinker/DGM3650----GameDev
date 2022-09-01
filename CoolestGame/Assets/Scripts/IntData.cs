@@ -4,10 +4,10 @@ using UnityEngine;
 [CreateAssetMenu]
 public class IntData : ScriptableObject
 {
-    public int value;
+    public int total;
 
     public void UpdateValue(int num)
     {
-        value += num;
+        total += num;
     }
 }
