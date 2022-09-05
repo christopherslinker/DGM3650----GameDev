@@ -2,9 +2,9 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MatchBehaviour : MonoBehaviour
+public class MatchBehaviour : IDContainerBehaviour
 {
-    public ID idOBJ;
+    public ID idObj;
     public UnityEvent matchEvent, noMatchEvent, noMatchDelayed;
     private IEnumerator OnTriggerEnter(Collider other)
     {
@@ -13,7 +13,7 @@ public class MatchBehaviour : MonoBehaviour
             yield break;
         
         var otherID = tempObj.idObj;
-        if (otherID == idOBJ)
+        if (otherID == idObj)
         {
             matchEvent.Invoke();
         }
