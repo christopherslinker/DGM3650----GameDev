@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0041d74f9be9464c8ba5d0b0a71b5f6, type: 3}
-  m_Name: V3B
+  m_Name: V3DotC
   m_EditorClassIdentifier: 
-  value: {x: 0, y: 7, z: 0}
+  value: {x: -3, y: -3, z: 0}

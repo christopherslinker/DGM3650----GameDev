@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0d7551b4746d47738c456bec70cb151, type: 3}
-  m_Name: V3List
+  m_Name: V3RingList
   m_EditorClassIdentifier: 
-  vectro3List:
+  vector3List:
   - {fileID: 11400000, guid: 0b722f66fe0c34c58a9d7fc0f51f6875, type: 2}
   - {fileID: 11400000, guid: 5a9e0329dbc434a6aad6672e724339ec, type: 2}
   - {fileID: 11400000, guid: f12db7a49229a4310bf3ad0079f9c9c0, type: 2}
-  - {fileID: 11400000, guid: e4a65fda1754e43a4acdb1483fe611e0, type: 2}
+  - {fileID: 11400000, guid: f12db7a49229a4310bf3ad0079f9c9c0, type: 2}

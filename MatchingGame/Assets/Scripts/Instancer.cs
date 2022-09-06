@@ -24,7 +24,7 @@ public class Instancer : ScriptableObject
 
     public void CreatInstanceFromList(Vector3DataList obj)
     {
-        foreach (var t in obj.vectro3List)
+        foreach (var t in obj.vector3List)
         {
             Instantiate(prefab, t.value, Quaternion.identity);
         }
@@ -33,9 +33,9 @@ public class Instancer : ScriptableObject
     
     public void CreatInstanceFromListCounting(Vector3DataList obj)
     {
-        Instantiate(prefab, obj.vectro3List[num].value, Quaternion.identity);
+        Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
         num++;
-        if (num == obj.vectro3List.Count)
+        if (num == obj.vector3List.Count)
         {
             num = 0;
         }
@@ -43,8 +43,8 @@ public class Instancer : ScriptableObject
     
     public void CreatInstanceListRandomly(Vector3DataList obj)
     {
-        num = Random.Range(0, obj.vectro3List.Count - 1);
-        Instantiate(prefab, obj.vectro3List[num].value, Quaternion.identity);
+        num = Random.Range(0, obj.vector3List.Count -1);
+        Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
         
     }
 }
